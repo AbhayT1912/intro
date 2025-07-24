@@ -1,7 +1,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackgroung";
-// import { Astronaut } from "../components/Astronaut";
+import { Astronaut } from "../components/Astronaut";
 import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
@@ -14,7 +14,7 @@ const Hero = () => {
     <section id="home" className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
       <HeroText />
       <ParallaxBackground />
-      {/* <figure
+      <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
@@ -29,7 +29,7 @@ const Hero = () => {
             <Rig />
           </Suspense>
         </Canvas>
-      </figure> */}
+      </figure>
     </section>
   );
 };
