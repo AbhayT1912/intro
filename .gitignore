@@ -9,6 +9,7 @@ lerna-debug.log*
 
 directories
 dist
+dist-ssr
 build
 
 node_modules
