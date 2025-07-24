@@ -12,27 +12,27 @@ export const myProjects = [
     ],
     href: "https://urban-roots-8cct-git-main-anand9752s-projects.vercel.app/",
     logo: "",
-    image: "/assets/projects/ur.png",
+    image: "./assets/projects/ur.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/projects/react.svg",
+        path: "./assets/projects/react.svg",
       },
       {
         id: 2,
         name: "CSS",
-        path: "/assets/projects/css.svg",
+        path: "./assets/projects/css.svg",
       },
       {
         id: 3,
         name: "HTML5",
-        path: "./assets/projects/html.svg",
+        path: "../assets/projects/html.svg",
       },
       {
         id: 4,
         name: "JavaScript",
-        path: "./assets/projects/js.svg",
+        path: "../assets/projects/js.svg",
       },
     ],
   },
@@ -49,27 +49,27 @@ export const myProjects = [
     ],
     href: "https://shopping-cart-beta-tan.vercel.app/",
     logo: "",
-    image: "/assets/projects/ss.png",
+    image: "./assets/projects/ss.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/projects/react.svg",
+        path: "./assets/projects/react.svg",
       },
       {
         id: 2,
         name: "HTML5",
-        path: "/assets/projects/html.svg",
+        path: "./assets/projects/html.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "/assets/projects/css.svg",
+        path: "./assets/projects/css.svg",
       },
       {
         id: 4,
         name: "JavaScript",
-        path: "/assets/projects/js.svg",
+        path: "./assets/projects/js.svg",
       },
     ],
   },
@@ -87,27 +87,27 @@ export const myProjects = [
     ],
     href: "https://spockydecks.vercel.app/",
     logo: "",
-    image: "/assets/projects/pd.png",
+    image: "./assets/projects/pd.png",
     tags: [
       {
         id: 1,
         name: "REST API",
-        path: "/assets/projects/api.svg",
+        path: "./assets/projects/api.svg",
       },
       {
         id: 2,
         name: "DevTools",
-        path: "/assets/projects/cdt.svg",
+        path: "./assets/projects/cdt.svg",
       },
       {
         id: 3,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "./assets/logos/react.svg",
       },
       {
         id: 4,
         name: "CSS",
-        path: "/assets/projects/css.svg",
+        path: "./assets/projects/css.svg",
       },
     ],
   },
@@ -125,27 +125,27 @@ export const myProjects = [
     ],
     href: "https://github.com/AbhayT1912/Todo1",
     logo: "",
-    image: "/assets/projects/tdm.png",
+    image: "./assets/projects/tdm.png",
     tags: [
       {
         id: 1,
         name: "JavaScript",
-        path: "/assets/projects/js.svg",
+        path: "./assets/projects/js.svg",
       },
       {
         id: 2,
         name: "HTML5",
-        path: "/assets/projects/html.svg",
+        path: "./assets/projects/html.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "/assets/projects/css.svg",
+        path: "./assets/projects/css.svg",
       },
       {
         id: 4,
         name: "DevTools",
-        path: "/assets/projects/cdt.svg",
+        path: "./assets/projects/cdt.svg",
       },
     ],
   },
@@ -162,12 +162,12 @@ export const myProjects = [
     ],
     href: "https://github.com/AbhayT1912/CarRentalSystem",
     logo: "",
-    image: "/assets/projects/crs.png",
+    image: "./assets/projects/crs.png",
     tags: [
       {
         id: 1,
         name: "Java",
-        path: "/assets/projects/java.svg",
+        path: "./assets/projects/java.svg",
       },
     ],
   },
@@ -184,17 +184,17 @@ export const myProjects = [
     ],
     href: "https://teamminesreimagineround1.vercel.app/",
     logo: "",
-    image: "/assets/projects/rm.png",
+    image: "./assets/projects/rm.png",
     tags: [
       {
         id: 1,
         name: "HTML5",
-        path: "/assets/projects/html.svg"
+        path: "./assets/projects/html.svg"
       },
       {
         id: 2,
         name: "CSS",
-        path: "/assets/projects/css.svg"
+        path: "./assets/projects/css.svg"
       },
     ],
   },
@@ -205,22 +205,22 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "./assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/abhay-thakur-44065b290/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "./assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/abhay_thakur1912/",
-    icon: "/assets/socials/instagram.svg",
+    icon: "./assets/socials/instagram.svg",
   },
   {
     name: "GitHub",
     href: "https://github.com/AbhayT1912",
-    icon: "/assets/projects/git.svg",
+    icon: "./assets/projects/git.svg",
   }
 ];
 
@@ -247,42 +247,42 @@ export const reviews = [
     name: "Anand Patidar",
     username: "@anand9752",
     body: "Abhay's work is truly impressive and inspiring. I greatly admire his dedication and skill.",
-    img: "./assets/projects/anand.jpg",
+    img: ".../assets/projects/anand.jpg",
   },
   {
     name: "Akash Patidar",
     username: "@akash",
     body: "Abhay's projects showcase outstanding talent and creativity. I appreciate his commitment to excellence.",
-    img: "./assets/projects/akash.jpg",
+    img: ".../assets/projects/akash.jpg",
   },
   {
     name: "Ayush Tiwari",
     username: "@ayush",
     body: "I admire Abhay's innovative approach and the quality of his work. Truly remarkable!",
-    img: "./assets/projects/ayush.jpg",
+    img: ".../assets/projects/ayush.jpg",
   },
   {
     name: "Ayushman Patel",
     username: "@ayushman",
     body: "Abhay's work is exceptional and sets a high standard. I appreciate his attention to detail.",
-    img: "./assets/projects/ayushman.jpg",
+    img: ".../assets/projects/ayushman.jpg",
   },
   {
     name: "Akshat Patel",
     username: "@akshat",
     body: "I am impressed by Abhay's expertise and dedication. His work is highly admirable.",
-    img: "./assets/projects/akshat.png",
+    img: ".../assets/projects/akshat.png",
   },
   {
     name: "Madhav Gupta",
     username: "@madhav",
     body: "Abhay's projects are inspiring and demonstrate true mastery. I appreciate his hard work.",
-    img: "./assets/projects/mdv.png",
+    img: ".../assets/projects/mdv.png",
   },
   {
     name: "Rishabh Dwivedi",
     username: "@rishabh",
     body: "Abhay's work consistently exceeds expectations. I admire his professionalism and skill.",
-    img: "./assets/projects/rishab.jpg",
+    img: ".../assets/projects/rishab.jpg",
   }
 ];
