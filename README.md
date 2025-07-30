@@ -61,6 +61,19 @@ Desktop
 
 Using react-responsive media queries and flexible layout utilities.
 
+EmailJS Configuration
+Create an account at EmailJS.
+
+Create a new email service and template.
+
+Get your Service ID, Template ID, and User/Public Key.
+
+Add them to your .env file:
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
