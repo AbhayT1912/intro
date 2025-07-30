@@ -1,10 +1,65 @@
-<<<<<<< HEAD
-# Portfolio
-An interactive React portfolio featuring 3D elements with React Three Fiber and Maath, smooth animations via Framer Motion, responsive design using React Responsive, and seamless contact form integration with EmailJS.
-=======
-# React + Vite
+# Interactive 3D React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive portfolio built with modern React technologies, featuring immersive 3D visuals, smooth animations, and responsive design. This project showcases skills, projects, and contact capabilities in a visually engaging format.
+
+## 🚀 Features
+
+- **3D Elements**: Integrated with [React Three Fiber](https://github.com/pmndrs/react-three-fiber) and [Maath](https://github.com/pmndrs/maath) for realistic and efficient 3D rendering.
+- **Animations**: Smooth, customizable transitions powered by [Framer Motion](https://www.framer.com/motion/).
+- **Responsive Design**: Adapts seamlessly to all screen sizes using [React Responsive](https://github.com/contra/react-responsive).
+- **Contact Form**: Functional email contact form using [EmailJS](https://www.emailjs.com/), no server needed.
+- **Modular Codebase**: Easily maintainable and extensible React component structure.
+
+## 🖼️ Demo
+
+[Live Demo](#) – _Add your deployed URL here once available._
+
+## 🛠️ Technologies Used
+
+- **React**
+- **React Three Fiber**
+- **Maath**
+- **Framer Motion**
+- **React Responsive**
+- **EmailJS**
+- **Tailwind CSS** (optional if used for styling)
+
+## 📂 Folder Structure
+
+src/
+├── components/ # Reusable UI components
+├── sections/ # Page sections like About, Projects, Contact
+├── constants/ # contains description of each section, helper function
+├── App.jsx # Main app entry
+├── main.jsx # ReactDOM render
+└── index.css/ # CSS or Tailwind configuratio
+
+
+## 📦 Installation
+
+1. **Clone the repo**
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+
+2. **Install dependencies**
+   npm install
+
+4. **Run the Development Server**
+   npm run dev
+
+6. **Build the production**
+   npm run build
+
+Responsive Design
+Optimized for:
+
+Mobile
+
+Tablet
+
+Desktop
+
+Using react-responsive media queries and flexible layout utilities.
 
 Currently, two official plugins are available:
 
