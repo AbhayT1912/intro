@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headText">Hi, I'm Abhay Thakur</p>
             <p className="subtext">
-              I am a second-year B.Tech CSE student specializing in full-stack web development with a solid foundation in data structures and algorithms. I am skilled in developing scalable, responsive applications using modern frameworks and optimized algorithms for high-performance solutions.
+              I am a Third-year B.Tech CSE student specializing in full-stack web development with a solid foundation in data structures and algorithms and keen intrest in project management. I am skilled in developing scalable, responsive applications using modern frameworks and optimized algorithms for high-performance solutions.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
