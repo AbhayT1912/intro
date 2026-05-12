@@ -56,7 +56,7 @@ export const myProjects = [
     id: 2,
     title: "FasalSaathi",
     description:
-      "Fasal Saathi is an intelligent agriculture-focused web application designed for farmers and agricultural managers. It offers a dynamic dashboard and unified control center featuring AI-powered crop and farm workflow management, an interactive “Ask Saathi” RAG-based assistant, image-based disease and animal breed detection, crop yield prediction, and smart crop recommendation using weather and NPK data. The platform also includes live market prices, an interactive weather hub, smart inventory management, and a responsive multilingual UI with text-to-speech support for enhanced accessibility.",
+      "FasalSaathi is a smart agriculture web application built to simplify farm management for farmers and agricultural managers through AI-driven insights, real-time monitoring, and an accessible multilingual platform.",
     subDescription: [
       "Dynamic Dashboard: A unified control center rendering KPI cards, weather widgets, and recent alerts using clean Radix UI components.",
       "Advanced Farm & Crop Workflows: Interfaces to register land parcels, maintain soil health logs (pH, NPK), and visualize crop lifecycle calendars.",
