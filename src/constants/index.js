@@ -1,6 +1,5 @@
 export const myProjects = [
   {
-    
     id: 1,
     title: "Repolens",
     description:
@@ -23,13 +22,66 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Pinecone",
-        path: "./assets/projects/pinecone.svg",
+        name: "JavaScript",
+        path: "./assets/projects/js.svg",
       },
       {
         id: 3,
-        name: "Neo4j",
-        path: "./assets/projects/neo4.svg",
+        name: "REST API",
+        path: "./assets/projects/api.svg",
+      },
+      {
+        id: 4,
+        name: "Express",
+        path: "./assets/projects/expressa.svg",
+      },
+      {
+        id: 5,
+        name: "MongoDb",
+        path: "./assets/projects/mongo.svg",
+      },
+       {
+        id: 6,
+        name: "Docker",
+        path: "./assets/projects/docker.svg",
+      },
+       {
+        id: 7,
+        name: "Redis",
+        path: "./assets/projects/redis.svg",
+      },
+    ],
+  },
+   {
+    id: 2,
+    title: "FasalSaathi",
+    description:
+      "Fasal Saathi is an intelligent agriculture-focused web application designed for farmers and agricultural managers. It offers a dynamic dashboard and unified control center featuring AI-powered crop and farm workflow management, an interactive “Ask Saathi” RAG-based assistant, image-based disease and animal breed detection, crop yield prediction, and smart crop recommendation using weather and NPK data. The platform also includes live market prices, an interactive weather hub, smart inventory management, and a responsive multilingual UI with text-to-speech support for enhanced accessibility.",
+    subDescription: [
+      "Dynamic Dashboard: A unified control center rendering KPI cards, weather widgets, and recent alerts using clean Radix UI components.",
+      "Advanced Farm & Crop Workflows: Interfaces to register land parcels, maintain soil health logs (pH, NPK), and visualize crop lifecycle calendars.",
+      "Ask Sathi AI Assistant: A custom-built chat interface interfacing with Google Gemini backend, allowing farmers to query about crop health, pest control, and best practices in natural language.",
+      "Image-based Disease Detection: A specialized workflow enabling users to upload leaf images directly via the browser for backend AI diagnosis and treatment recommendations."
+      "Live APMC Market Prices: Interactive data tables and trend charts (using Recharts) for tracking localized commodity pricing."
+    ],
+    href: "https://github.com/AbhayT1912/fasalsaathi-frontend",
+    logo: "",
+    image: "./assets/projects/fasal.png",
+    tags: [
+     {
+        id: 1,
+        name: "React",
+        path: "./assets/projects/react.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "./assets/projects/css.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "./assets/projects/html.svg",
       },
       {
         id: 4,
@@ -50,21 +102,6 @@ export const myProjects = [
         id: 7,
         name: "MongoDb",
         path: "./assets/projects/mongo.svg",
-      },
-       {
-        id: 8,
-        name: "Docker",
-        path: "./assets/projects/docker.svg",
-      },
-       {
-        id: 9,
-        name: "BullMQ",
-        path: "./assets/projects/bull.svg",
-      },
-       {
-        id: 10,
-        name: "Redis",
-        path: "./assets/projects/redis.svg",
       },
     ],
   },
