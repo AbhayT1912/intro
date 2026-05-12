@@ -1,6 +1,76 @@
 export const myProjects = [
   {
+    
     id: 1,
+    title: "Repolens",
+    description:
+      "RepoLens is a production-grade codebase analysis platform that transforms how developers interact with their repositories. Using a sophisticated RAG (Retrieval-Augmented Generation) pipeline and interactive visualizations, RepoLink provides deep architectural insights, call graphs, and natural language querying capabilities.",
+    subDescription: [
+      "Intelligent Code Search: Find logic and patterns using natural language, not just keywords.",
+      " Interactive Call Graph: Visualize function relationships and dependencies in real-time.",
+      "Architecture Analytics: Gain insights into code complexity, impact analysis, and technical debt.",
+      "AI PR Analysis: Automated reviews for pull requests to ensure code quality and consistency."
+      "Secure & Scalable: Enterprise-grade authentication via Clerk and scalable microservices architecture."
+    ],
+    href: "https://code-lens-frontend-ivory.vercel.app/",
+    logo: "",
+    image: "./assets/projects/repo.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "./assets/projects/react.svg",
+      },
+      {
+        id: 2,
+        name: "Pinecone",
+        path: "./assets/projects/pinecone.svg",
+      },
+      {
+        id: 3,
+        name: "Neo4j",
+        path: "./assets/projects/neo4.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "./assets/projects/js.svg",
+      },
+      {
+        id: 5,
+        name: "REST API",
+        path: "./assets/projects/api.svg",
+      },
+      {
+        id: 6,
+        name: "Express",
+        path: "./assets/projects/expressa.svg",
+      },
+      {
+        id: 7,
+        name: "MongoDb",
+        path: "./assets/projects/mongo.svg",
+      },
+       {
+        id: 8,
+        name: "Docker",
+        path: "./assets/projects/docker.svg",
+      },
+       {
+        id: 9,
+        name: "BullMQ",
+        path: "./assets/projects/bull.svg",
+      },
+       {
+        id: 10,
+        name: "Redis",
+        path: "./assets/projects/redis.svg",
+      },
+    ],
+  },
+  {
+    
+    id: 2,
     title: "AI - Virtual Asssistant",
     description:
       "This project involved architecting a voice-actuated conversational AI on the MERN stack, engineered to pioneer a more intuitive, zero-touch user interaction paradigm. The system's backbone is a robust and scalable Node.js backend, exposing a stateless RESTful API fortified with a JWT-based authentication protocol for secure, low-latency command processing. The result is a holistic, end-to-end implementation of a sophisticated AI agent, showcasing advanced full-stack engineering principles.",
@@ -52,7 +122,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Urban Roots",
     description:
       "Urban Roots is a comprehensive service-based and e-commerce platform for urban farming. It empowers users with free or waste land to hire professional workers for organic farming, purchase raw materials, book appointments for different time slots, and utilize an advanced crop predictor based on season, atmosphere, temperature, and humidity.",
@@ -89,7 +159,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "ShopSmart",
     description:
       "ShopSmart is an online nursery and e-commerce platform specializing in plants for home decor and gardening. Users can browse, select, and purchase a wide variety of indoor and outdoor plants, making it easy to enhance their living spaces and gardens.",
@@ -126,7 +196,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Pokedex",
     description:
       "Pokedex is a web application that allows users to explore thousands of Pokémon, view their abilities, stats, and much more. Built using browser devtools and RESTful APIs for dynamic data fetching and display.",
@@ -164,7 +234,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "TODO MANAGER",
     description:
       "TODO MANAGER is a web application that allows users to efficiently manage their tasks. Users can add, delete, mark tasks as complete, and sort their todo list for better productivity.",
@@ -202,7 +272,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Car Rental System",
     description:
       "Car Rental System is a web application that enables users to browse, book, and manage car rentals online. It streamlines the rental process for both customers and administrators, offering a user-friendly experience.",
@@ -224,7 +294,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Reimagine Manohar",
     description:
       "Reimagine Manohar is a restaurant menu website that showcases the menu, categories of food, customer testimonials, and the rich history of Manohar in the Hero section. The site features clean and smooth animations for an engaging user experience.",
