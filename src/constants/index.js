@@ -8,7 +8,7 @@ export const myProjects = [
       "Intelligent Code Search: Find logic and patterns using natural language, not just keywords.",
       " Interactive Call Graph: Visualize function relationships and dependencies in real-time.",
       "Architecture Analytics: Gain insights into code complexity, impact analysis, and technical debt.",
-      "AI PR Analysis: Automated reviews for pull requests to ensure code quality and consistency."
+      "AI PR Analysis: Automated reviews for pull requests to ensure code quality and consistency.",
       "Secure & Scalable: Enterprise-grade authentication via Clerk and scalable microservices architecture."
     ],
     href: "https://code-lens-frontend-ivory.vercel.app/",
@@ -61,7 +61,7 @@ export const myProjects = [
       "Dynamic Dashboard: A unified control center rendering KPI cards, weather widgets, and recent alerts using clean Radix UI components.",
       "Advanced Farm & Crop Workflows: Interfaces to register land parcels, maintain soil health logs (pH, NPK), and visualize crop lifecycle calendars.",
       "Ask Sathi AI Assistant: A custom-built chat interface interfacing with Google Gemini backend, allowing farmers to query about crop health, pest control, and best practices in natural language.",
-      "Image-based Disease Detection: A specialized workflow enabling users to upload leaf images directly via the browser for backend AI diagnosis and treatment recommendations."
+      "Image-based Disease Detection: A specialized workflow enabling users to upload leaf images directly via the browser for backend AI diagnosis and treatment recommendations.",
       "Live APMC Market Prices: Interactive data tables and trend charts (using Recharts) for tracking localized commodity pricing."
     ],
     href: "https://github.com/AbhayT1912/fasalsaathi-frontend",
